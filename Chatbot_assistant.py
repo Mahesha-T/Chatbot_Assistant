@@ -1,7 +1,6 @@
 import streamlit as st
 import requests
 import uuid
-import speech_recognition as sr
 import streamlit.components.v1 as components
 from langchain_ollama import OllamaLLM
 from langchain_core.messages import AIMessage, SystemMessage, HumanMessage
